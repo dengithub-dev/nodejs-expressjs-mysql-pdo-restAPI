@@ -1,0 +1,21 @@
+{
+  "name": "restapi-express-mysql",
+  "version": "1.0.0",
+  "description": "RestAPI with Express and MySQL",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "den_b",
+  "license": "ISC",
+  "type": "module"
+}
